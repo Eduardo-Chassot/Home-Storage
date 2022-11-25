@@ -1,15 +1,15 @@
 <?php
 
-$user = 'root';
-$password = '';
-$database = 'storage';
-$hostname = 'localhost';
+function conectaDB($user = 'root', $password = '', $database = 'storage', $hostname = 'localhost'){
+    $connect = mysqli_connect($hostname, $user, $password, $database);
+    return $connect;
+}
 
 function consultar($query, $echo = 0){
 
-    $connect = mysqli_connect($hostname, $user, $password, $database);
+    $connect = conectaDB();
 
-    if($echo = 1){
+    if($echo == 1){
         echo $query;
     }
 
@@ -25,7 +25,7 @@ function consultar($query, $echo = 0){
 }
 
 function arrayParaJson($array){
-    json_encode($array);
+    echo json_encode($array);
 }
 
 ?>

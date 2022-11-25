@@ -1,7 +1,7 @@
 <?php 
 require_once("../codigos/config.php");
 
-$consulta = consultar("SELECT * FROM itens WHERE ativo = 1 ORDER BY pos");
+$consulta = consultar("SELECT * FROM item WHERE ativo = 1 ORDER BY pos");
 
 arrayParaJson($consulta);
 ?>
