@@ -21,3 +21,15 @@ input,select{vertical-align:middle}
     height: 8%;
     background-color: red;
 }
+
+.home{
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+.add{
+    position: relative;
+    margin-left: 1%;
+    margin-top: 10px;
+}
