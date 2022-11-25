@@ -24,4 +24,8 @@ function consultar($query, $echo = 0){
 
 }
 
+function arrayParaJson($array){
+    json_encode($array);
+}
+
 ?>
