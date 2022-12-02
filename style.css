@@ -24,12 +24,13 @@ input,select{vertical-align:middle}
 
 .home{
     position: relative;
-    margin-left: 50%;
-    margin-top: 10px;
+    margin-left: 60%;
+    margin-top: 1%;
 }
 
 .add{
     position: relative;
     margin-left: 1%;
-    margin-top: 10px;
+    margin-top: 1%;
 }
+
