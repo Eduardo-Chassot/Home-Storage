@@ -21,3 +21,17 @@ input,select{vertical-align:middle}
     height: 8%;
     background-color: red;
 }
+
+.container {
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1.6fr 0.4fr; 
+    gap: 0px 0px; 
+    background-color: aqua;
+}
+
+table, th, td {
+    border: 1px, solid red;
+    border-collapse: collapse;
+}

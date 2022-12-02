@@ -1,4 +1,4 @@
-<html>
+
 <link rel="stylesheet" type="text/css" href="../style.css">
 <body>
     <div class='cabecalho'>
@@ -7,4 +7,3 @@
         <button></button>
     </div>
 </body>
-</html>
