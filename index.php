@@ -1,3 +1,6 @@
+<?php 
+require_once('codigos/config.php')
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +13,19 @@
 </head>
 <body>
 </body>
-    <table>
-        <td>Produto</td>
-        <td>Quantiedade</td>
+    <table class='table'>
+        <tr>
+            <td>Produto</td>
+            <td>Quantiedade</td>
+        </tr>
     </table>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/item.js"></script>
     <script>
-        buscarAjax();
+        console.log("log");
+        var resultados = buscarAjax();
+        var table = $('#table');
+        table.html(resultados);
     </script>
 </html>
 
